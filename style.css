@@ -118,12 +118,20 @@ a.button6:active {
 
 .infocontainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .elbox {
-    background-color: azure;
-    height: 400px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
 
 
 }
@@ -131,5 +139,23 @@ a.button6:active {
 .infobox {
     width: 100px;
     height: 100px;
-    border: solid 1px black;
+    border: solid 2px blue;
+    border-radius: 10%;
+
+}
+
+.txtunder {
+    text-align: center;
+    color: #1f2937;
+}
+
+.quotediv {
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+
+.quotetxt {
+    margin-left: 80px;
+    margin-right: 80px;
 }
